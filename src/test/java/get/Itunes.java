@@ -1,5 +1,6 @@
 package get;
 
+import io.restassured.RestAssured;
 import org.junit.Test;
 
 public class Itunes {
@@ -12,6 +13,10 @@ public class Itunes {
         4. Define header parameters
         5. Send/Execute a request
          */
+        // https://itunes.apple.com/search
+
+        RestAssured.baseURI="https://itunes.apple.com/search";
+
 
 
 
