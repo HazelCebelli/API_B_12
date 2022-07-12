@@ -18,7 +18,7 @@ public class Petstore {
                 .when()
                 .get()   //action
                 .then()
-                .statusCode(404); // validation  // we can put .log().all() to print the same thing from postman
+                .statusCode(404); // validation  // !!!!!we can put .log().all() to print the same thing from postman
 
     }
 
