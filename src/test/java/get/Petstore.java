@@ -3,6 +3,9 @@ package get;
 import io.restassured.RestAssured;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Petstore {
     //Create anew test Method
     //Send a get request to "https://petstore.swagger.io/v2/pet/10567"
@@ -20,18 +23,7 @@ public class Petstore {
                 .then()
                 .statusCode(404); // validation  // !!!!!we can put .log().all() to print the same thing from postman
 
-        Map<String, Integer> map = new HashMap<String, Integer> ();
-        for (String s:strings) {
 
-            if (!map.containsKey(s)) {  // first time we've seen this string
-                map.put(s, 1);
-            }
-            else {
-                int count = map.get(s);
-                map.put(s, count + 1);
-            }
-        }
-        return map;
     }
 
 }
