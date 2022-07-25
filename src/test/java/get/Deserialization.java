@@ -43,6 +43,7 @@ public class Deserialization {
         // to be able to use it we need to CAST it!!! oTHERWISE WEW ILL GET ClassCastException.
 
         System.out.println(("Catogory Map : "+ categoryMap));
+        System.out.println("Hello World!");
 
 
 
