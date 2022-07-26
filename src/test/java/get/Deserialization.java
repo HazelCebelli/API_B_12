@@ -45,6 +45,7 @@ public class Deserialization {
         System.out.println(("Catogory Map : "+ categoryMap));
 
         System.out.println("Monday");
+        System.out.println("Monday");
 
 
 
