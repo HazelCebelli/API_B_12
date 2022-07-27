@@ -47,6 +47,7 @@ public class Deserialization {
         System.out.println("Monday, Tuesday");
         System.out.println("Monday, tuesday2");
         System.out.println("Monday, tuesday3");
+        System.out.println("Wed");
 
 
 
